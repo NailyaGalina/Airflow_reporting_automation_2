@@ -17,7 +17,7 @@ default_args = {
     'retry_delay': timedelta(minutes=5),
     'start_date': datetime(2025, 9, 23),
 }
-schedule_interval = '5 11 * * *'
+schedule_interval = '0 11 * * *'
 
 # подключение к бд
 connection = {
@@ -26,13 +26,10 @@ connection = {
     'user': 'student',
     'password': 'dpo_python_2020'
 }
-my_token = '7898888628:AAHJG6503_h_BrdIg1sUewzaSw1EYOnisjg'
+my_token = '7898888628:AAHJG6503_h_BrdIg1sUewzaSw1EYO'
 
 # Отправляем в канал
-chat_id = -1002614297220
-
-# Отправляем в личный чат (раскомментировать эту строку и закомментировать предыдущую)
-# chat_id = 665685947
+chat_id = -10026142972
 
 @dag(default_args=default_args, schedule_interval=schedule_interval, catchup=False)
 def n_galina_full_report():
