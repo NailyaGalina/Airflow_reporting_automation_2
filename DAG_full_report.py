@@ -24,7 +24,7 @@ connection = {
     'host': 'https://clickhouse.lab.karpov.courses',
     'database': 'simulator_20250820',
     'user': 'student',
-    'password': 'dpo_python_2020'
+    'password': 'dpo_python_20'
 }
 my_token = '7898888628:AAHJG6503_h_BrdIg1sUewzaSw1EYO'
 
