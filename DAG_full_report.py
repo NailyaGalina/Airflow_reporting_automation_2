@@ -24,12 +24,12 @@ connection = {
     'host': 'https://clickhouse.lab.karpov.courses',
     'database': 'simulator_20250820',
     'user': 'student',
-    'password': 'dpo_python_20'
+    'password': '****'
 }
-my_token = '7898888628:AAHJG6503_h_BrdIg1sUewzaSw1EYO'
+my_token = 'здесь пишем токен бота'
 
 # Отправляем в канал
-chat_id = -10026142972
+chat_id = -100****
 
 @dag(default_args=default_args, schedule_interval=schedule_interval, catchup=False)
 def n_galina_full_report():
